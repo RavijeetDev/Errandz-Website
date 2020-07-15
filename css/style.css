@@ -1,0 +1,161 @@
+@font-face{
+    font-family: roboto-regular;
+    src: url('../fonts/Roboto-Regular.ttf');
+}
+@font-face{
+    font-family: roboto-bold;
+    src: url('../fonts/Roboto-Bold.ttf');
+}
+@font-face{
+    font-family: roboto-medium;
+    src: url('../fonts/Roboto-Medium.ttf');
+}
+*{
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    display: grid;
+    grid-template-rows: repeat(8,1fr);
+    grid-template-columns: 1fr;
+    
+}
+.home{
+    background-color:#6CBA7F;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 100px;
+}
+.logo{
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+    
+}
+.logo img{
+    height: 60px;
+    width: 60px;
+    margin: auto !important; 
+    padding-top: 3em; 
+    
+}
+.nav{
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+    margin: auto !important;
+}
+.nav ul li
+{
+    float: left;
+    margin-left: 2rem;
+    /* font-family: 'Roboto';
+    font-weight: bold; */
+    color: #FFFFFF;
+    font-size: 26px;
+    cursor: pointer;
+    font-family: roboto-bold;
+}
+.app_mobile{
+    grid-row: 2 / 4;
+    grid-column: 1 / 2;
+}
+.app_mobile img{
+    margin: auto;
+}
+.intro_heading{
+    grid-row: 2 / 4;
+    grid-column: 2 / 3;
+    
+}
+.intro_heading h1 {
+    color: #FFFFFF;
+    font-size: 42px;
+    font-family: roboto-regular;
+    font-weight: 400;
+    padding-left: 2em;
+    padding-right: 2em;
+    text-align: center;
+    letter-spacing: 3px;
+}
+.intro_heading p{
+    font-size: 26px;
+    font-family: roboto-regular;
+    padding: 0px;
+    margin-top: 1em;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.download_links{
+    grid-row: 4 / 5;
+    grid-column: 2 / 3;
+    
+}
+.download_links a {
+    margin-left: 8em;
+    margin-top: 0em !important;
+}
+.download_links a img{
+    height: 140px;
+    width: 160px;
+    float: left;
+    margin-left: 1em;
+    margin-top: 0em !important;
+    
+}
+.features{
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(4,1fr);
+
+}
+.features_heading{
+    grid-row: 1 / 2;
+    grid-column: 2 / 4;
+    margin: auto !important;
+}
+.features_heading h1{
+    font-size: 32px;
+    color: #6CBA7F;
+    font-family: roboto-medium;
+    
+}
+.features_text{
+    grid-row: 2 / 3;
+    grid-column: 2 / 4;
+}
+.features_text p{
+    font-size: 26px;
+    font-family: roboto-regular;
+    text-align: center;
+}
+.feature_one{
+    grid-row: 3 / 4;
+    grid-column: 2 / 3;
+}
+.feature_second{
+    grid-row: 3 / 4;
+    grid-column: 3 / 4;
+}
+.feature_third{
+    grid-row: 3 / 4;
+    grid-column: 4 / 5;
+}
+.about{
+    background-color: lightcoral;
+}
+.team{
+    background-color: lightseagreen;
+}
+.faqs{
+    background-color: mediumblue;
+}
+.newsletter{
+    background-color: paleturquoise;
+}
+.contact{
+    background-color: rebeccapurple;
+}   
+.footer{
+    background-color: black;
+}
