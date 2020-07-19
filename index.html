@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="icons/fontawesome-free-5.13.1-web/css/all.css" </head>
+    <!-- <link rel="stylesheet" href="icons/fontawesome-free-5.13.1-web/css/all.css" /> -->
+</head>
 
 <body>
     <div class="container">
@@ -32,38 +33,61 @@
                     earn some
                     pocket money by
                     working for a couple of hours and learn some skills along the way. </p>
+                <div class="download_links">
+                    <a href="#"><img src="images/google-play.svg" /></a><a href="#"><img
+                            src="images/app-store-apple.svg" /></a>
+                </div>
+
                 <!-- For example, the high school kids who are too young to be
                     working full time but are old enough to help someone in the neighbourhood with everyday chores like
                     babysitting, lawn mowing, etc.  </p> -->
             </div>
 
-            <div class="download_links">
-                <a href="#"><img src="images/google-play.svg" /></a><a href="#"><img
-                        src="images/app-store-apple.svg" /></a>
-            </div>
+            <!-- <div class="download_links">
+                 <a href="#"><img src="images/google-play.svg" /></a><a href="#"><img
+                        src="images/app-store-apple.svg" /></a> 
+            </div> -->
         </div>
         <div class="features">
             <div class="features_heading">
                 <h1>Features</h1>
+                <!-- <p>
+                    Our mobile application provides a dashboard for both the hirer and tasker(service provider). The
+                    user will be able to look
+                    for jobs or taskers conveniently and close to their own locations.
+                </p> -->
             </div>
             <div class="features_text">
                 <p>
                     Our mobile application provides a dashboard for both the hirer and tasker(service provider). The
-                    user will be able to look
-                    for jobs or taskers conveniently and close to their own locations.
+                    tasker will be able to see the available jobs on the job list along with the respective
+                    descriptions, all listed according to the skills/preferences provided by him.
+                    An edit profile option is provided, complete with details, reviews and ratings for the taskers to
+                    look at before sending a request. The user can mark the job as done, once he is finished with it and
+                    has been paid for it. Utmost care will be given to the safety and security of the users.
                 </p>
             </div>
             <div class="feature_one">
-                <i class="fas fa-map-marker-alt"></i>
-                <b>Find Nearby Odd Jobs</b>
+                <div class="feature_one_card">
+                    <img src="icons/feature1icon.svg" height="100px" width="100px" />
+                    <b>Find Nearby Odd Jobs</b>
+                    <p>The tasker will be able to see the available jobs on the job list.</p>
+                </div>
             </div>
             <div class="feature_second">
-                <i class="far fa-check-circle"></i>
-                <b>Reliable and Secure Platform</b>
+                <div class="feature_second_card">
+                    <img src="icons/features icon 3.svg" height="100px" width="100px" />
+                    <b>Reliable and Secure Platform</b>
+                    <p>The option to rate and review(works both for hirer and tasker), and to give feedback make it a
+                        reliable application</p>
+                </div>
             </div>
             <div class="feature_third">
-                <i class="fas fa-star"></i>
-                <b>Find Taskers Conveniently</b>
+                <div class="feature_third_card">
+                    <img src="icons/featureicon2.svg" height="100px" width="100px" />
+                    <b>Find Taskers Conveniently</b>
+                    <p>The hirer will be able to look for taskers within 10km radius of current location</p>
+                </div>
             </div>
         </div>
         <div class="about">
@@ -76,15 +100,16 @@
             <div class="about_text">
                 <p>
                     Errandz is a mobile platform software application that serves as a solution for people who are
-                    looking for odd jobs to earn quick money. For example, the high school kids who are too young to be
-                    working full time but are old enough to help someone in the neighbourhood with everyday chores like
-                    babysitting, lawn mowing, etc. This application will provide them with an opportunity to earn some
-                    pocket money by
-                    working for a couple of hours and learn some skills along the way.
+                    looking for odd jobs to earn quick money. This application will provide them with an opportunity to
+                    earn some pocket money by working for a couple of hours and learn some skills along the way. For
+                    example, the
+                    high school kids who are too young to be working full time but are old enough to help someone in the
+                    neighbourhood with everyday chores like
+                    babysitting, lawn mowing, etc.
                 </p>
             </div>
             <div class="about_image">
-                <img src="images/About_page.svg" height="400px" width="700px" />
+                <img src="images/About_page.svg" height="400px" width="600px" />
             </div>
         </div>
         <div class="team">4</div>
@@ -117,7 +142,7 @@
                 <form>
                     <input type="text" placeholder="Name" /><br>
                     <input type="email" placeholder="Email" /><br>
-                    <input type="text" placeholder="Message" /><br>
+                    <textarea placeholder="Message" style="height:100px"></textarea><br>
                     <button>Send</button>
                 </form>
             </div>
