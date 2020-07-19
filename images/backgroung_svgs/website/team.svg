@@ -1,0 +1,23 @@
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2424.892" height="1235.43" viewBox="0 0 2424.892 1235.43">
+  <defs>
+    <linearGradient id="linear-gradient" x1="3.78" y1="-0.831" x2="3.779" y2="-0.829" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#6cba7f"/>
+      <stop offset="0.38" stop-color="#66b677"/>
+      <stop offset="0.97" stop-color="#56ab61"/>
+      <stop offset="1" stop-color="#56ab60"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="7.799" y1="-3.122" x2="6.741" y2="-2.609" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#7ec396"/>
+      <stop offset="0.47" stop-color="#77bf8e"/>
+      <stop offset="1" stop-color="#6cba7f"/>
+    </linearGradient>
+  </defs>
+  <g id="Layer_1" data-name="Layer 1" transform="translate(0 0)">
+    <g id="Rectangle_177" data-name="Rectangle 177" transform="translate(0.819 0.2)">
+      <rect id="Rectangle_177-2" data-name="Rectangle 177" width="2424.073" height="1235.23" fill="#fff"/>
+      <rect id="Rectangle_178" data-name="Rectangle 178" width="2423.109" height="1234.266" transform="translate(0.491 0.491)" fill="none"/>
+    </g>
+    <path id="Path_437" data-name="Path 437" d="M1241.285,780.306c197.688,0,357.938-160.249,357.938-357.937a357.435,357.435,0,0,0-18.5-113.879H1466.734a253.081,253.081,0,1,1-453.388,0H901.831a357.943,357.943,0,0,0-18.5,113.879C883.33,620.057,1043.6,780.306,1241.285,780.306Z" transform="translate(-881.965 -308.49)" opacity="0.75" fill="url(#linear-gradient)"/>
+    <path id="Path_476" data-name="Path 476" d="M1278.224,350.737h0a171.164,171.164,0,1,1-196.942,276.2q-.873,43.66-1.237,87.319c1.546.855,3.111,1.71,4.675,2.529a242.057,242.057,0,1,0,1.346-429.175q.546,42.677.182,85.355a171.2,171.2,0,0,1,191.976-22.23Z" transform="translate(-1080.045 -185.466)" opacity="0.24" fill="url(#linear-gradient-2)"/>
+  </g>
+</svg>

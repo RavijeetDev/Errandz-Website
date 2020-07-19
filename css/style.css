@@ -24,10 +24,10 @@
 /************************************************************HOME SECTION**********************************************************************/
 /*********************************************************************************************************************************************/
 .home {
-  background-image: url(../images/Background_Green_Gradient.svg);
+  background-image: url(../images/backgroung_svgs/website/home.svg);
   background-size: 100%;
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr 80px;
+  grid-template-rows: 1fr 1fr 1fr 90px;
   grid-template-columns: 1.3fr 2fr 150px;
 }
 .logo {
@@ -108,7 +108,9 @@
 .features {
   display: grid;
   grid-template-rows: 0.4fr 0.7fr 0.8fr 0.2fr;
-  grid-template-columns: 0.8fr 1.5fr 1.5fr 1.7fr;
+  grid-template-columns: 0.8fr 1.5fr 1.5fr 2fr;
+  background-image: url(../images/backgroung_svgs/website/features.svg);
+  background-size: 100%;
 }
 .features_heading {
   grid-row: 1 / 2;
@@ -248,7 +250,7 @@
   display: grid;
   grid-template-rows: 0.5fr 0.5fr 1fr 0.4fr;
   grid-template-columns: 120px 1fr 1.2fr 100px;
-  background-image: url(../images/Background_Green_Gradient.svg);
+  background-image: url(../images/backgroung_svgs/website/about.svg);
   /* background-image: url(../images/OneComplete_BG.svg); */
   background-size: 100%;
 }
@@ -302,13 +304,69 @@
 /************************************************************FAQS SECTION**********************************************************************/
 /*********************************************************************************************************************************************/
 .faqs {
-  background-image: url(../images/Background_Green_Gradient.svg);
+  background-image: url(../images/backgroung_svgs/website/faq.svg);
+  display: grid;
+  background-size: 100%;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 0.5fr 2fr 0.4fr;
 }
+.faq_heading {
+  grid-row: 1 / 2;
+  grid-column: 2 / 3;
+  margin: auto;
+}
+.faq_heading h1 {
+  font-family: roboto-bold;
+  color: #ffffff;
+  /* margin: 0 auto !important; */
+}
+/********************************Reference from w3schools.com***************************************/
+.faq_accordion {
+  grid-row: 2 / 3;
+  grid-column: 2 / 2;
+}
+.accordion {
+  background: none;
+  color: black;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 22px;
+  width: 100%;
+  text-align: left;
+  font-family: roboto-bold;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+.panel {
+  padding: 0 18px;
+  /* background-color: white; */
+  display: none;
+  overflow: hidden;
+}
+.panel p {
+  font-family: roboto-regular;
+}
+.accordion:after {
+  content: "\2304";
+  font-size: 22px;
+  color: black;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "^";
+  color: #ffffff;
+}
+
 /*********************************************************************************************************************************************/
 /************************************************************NEWSLETTER SECTION**********************************************************************/
 /*********************************************************************************************************************************************/
 .newsletter {
-  background-color: #ffffff;
+  background-image: url("../images/backgroung_svgs/website/stay_updated.svg");
+  background-size: 100%;
   display: grid;
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 2fr 3fr 1fr;
@@ -389,14 +447,12 @@
 /*********************************************************************************************************************************************/
 .contact {
   display: grid;
-  grid-template-rows: 0.5fr 1fr 100px;
+  grid-template-rows: 0.5fr 0.2fr 100px;
   grid-template-columns: 1.6fr 2fr 1fr;
   /* background-image: url(../images/Background_Green_Gradient.svg); */
-  background-image: url(../images/contact_background.svg);
+  background-image: url("../images/backgroung_svgs/website/contact.svg");
   /* background-color: black; */
-  background-size: auto;
-  background-repeat: no-repeat;
-  padding: 0em;
+  background-size: 100%;
 }
 .contact_heading {
   grid-row: 1 / 2;
