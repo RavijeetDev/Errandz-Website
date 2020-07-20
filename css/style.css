@@ -26,6 +26,7 @@
 .home {
   background-image: url(../images/backgroung_svgs/website/home.svg);
   background-size: 100%;
+  grid-row: 1 / 2;
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 90px;
   grid-template-columns: 1.3fr 2fr 150px;
@@ -106,6 +107,7 @@
 /************************************************************FEATURES SECTION*****************************************************************/
 /*********************************************************************************************************************************************/
 .features {
+  grid-row: 2 / 3;
   display: grid;
   grid-template-rows: 0.4fr 0.7fr 0.8fr 0.2fr;
   grid-template-columns: 0.8fr 1.5fr 1.5fr 2fr;
@@ -247,6 +249,7 @@
 /************************************************************ABOUT SECTION**********************************************************************/
 /*********************************************************************************************************************************************/
 .about {
+  grid-row: 3 / 4;
   display: grid;
   grid-template-rows: 0.5fr 0.5fr 1fr 0.4fr;
   grid-template-columns: 120px 1fr 1.2fr 100px;
@@ -298,6 +301,7 @@
 /************************************************************TEAM SECTION**********************************************************************/
 /*********************************************************************************************************************************************/
 .team {
+  grid-row: 4 / 5;
   background-color: #ffffff;
 }
 /*********************************************************************************************************************************************/
@@ -305,6 +309,7 @@
 /*********************************************************************************************************************************************/
 .faqs {
   background-image: url(../images/backgroung_svgs/website/faq.svg);
+  grid-row: 5 / 6;
   display: grid;
   background-size: 100%;
   grid-template-columns: 1fr 2fr 1fr;
@@ -365,6 +370,7 @@
 /************************************************************NEWSLETTER SECTION**********************************************************************/
 /*********************************************************************************************************************************************/
 .newsletter {
+  grid-row: 6 / 7;
   background-image: url("../images/backgroung_svgs/website/stay_updated.svg");
   background-size: 100%;
   display: grid;
@@ -446,6 +452,7 @@
 /************************************************************CONTACT SECTION**********************************************************************/
 /*********************************************************************************************************************************************/
 .contact {
+  grid-row: 7 / 8;
   display: grid;
   grid-template-rows: 0.5fr 0.2fr 100px;
   grid-template-columns: 1.6fr 2fr 1fr;
@@ -524,6 +531,7 @@
 /*********************************************************************************************************************************************/
 .footer {
   /* background-image: url(../images/Background_Green_Gradient.svg); */
+  grid-row: 8 / 9;
   background-color: #6cba7f;
   display: grid;
   grid-template-rows: auto;
@@ -538,4 +546,118 @@
   letter-spacing: 2px;
   text-align: right;
   padding: 0.5em;
+}
+
+/************************************************************************************************************************************************/
+/****************************************************************Responsive Design***************************************************************/
+/************************************************************************************************************************************************/
+@media screen and (min-width: 360px) and (max-width: 420px) {
+  .container {
+    grid-template-rows: repeat(9, auto);
+    grid-template-columns: 1fr !important;
+    overflow: hidden;
+  }
+  .home {
+    display: grid;
+    grid-template-rows: 0.2fr 0.5fr 1fr 50px;
+    grid-template-columns: 1fr !important;
+    background-image: url(../images/backgroung_svgs/mobile/home_mobile.svg);
+    background-size: 100%;
+  }
+  .logo {
+    grid-row: 1 / 2;
+  }
+  .logo img {
+    margin: 1em 1em !important;
+  }
+  .app_mobile {
+    grid-row: 2 / 3;
+  }
+  .app_mobile img {
+    /* margin: auto; */
+    margin: 0em !important;
+    /* width: 100%; */
+  }
+  .intro_heading {
+    grid-row: 3 / 4;
+    grid-column: 1 / 1;
+    margin: 0em !important;
+    padding: 0em !important;
+  }
+  .intro_heading h1 {
+    font-size: 26px !important;
+    width: 50%;
+    letter-spacing: normal;
+    margin-left: 2em;
+    /* text-align: center; */
+  }
+  .intro_heading p {
+    font-size: 14px;
+    width: 50%;
+    text-align: center;
+    margin-left: 1.8em;
+  }
+  .download_links {
+    grid-row: 4 / 5;
+  }
+  .download_links a {
+    margin: 0em !important;
+  }
+  .download_links a img {
+    height: 100px;
+    width: 150px;
+  }
+  /* .features{
+    display: grid;
+    /* grid-template-rows:0.2fr 0.5fr 1fr 50px; 
+    grid-template-columns: 1fr !important; 
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr !important;
+    overflow: hidden !important;
+  }
+  
+  .features_heading h1{
+    margin-left: -16em;
+    font-size: 26px !important;
+  }
+ .feature_one{
+    grid-row: 3 / 4;
+    
+  }
+  .feature_one_card{
+    border: none !important;
+  }
+  .feature_second{
+    grid-row: 4 / 5 !important;
+    grid-column: 1 / 2;
+  }
+  .feature_second_card{
+    border:none !important;
+  }
+  .feature_third{
+
+  }
+  .about{
+    grid-row: 3 / 4;
+    display: grid;
+   }
+   .contact{
+     display: grid;
+     grid-template-columns: 1fr !important;
+   } */
+  /* .contact .contact_heading h1{
+     text-align: left !important;
+     margin: 0em !important;
+     font-size: 26px;
+   }
+   .contact_heading p{
+     text-align: left !important;
+     margin: 0em !important;
+   } */
+  .footer {
+    grid-template-columns: 1fr !important;
+  }
+  .footer .menu {
+    text-align: left !important;
+    font-size: 16px !important;
+  }
 }
