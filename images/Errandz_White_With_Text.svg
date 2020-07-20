@@ -1,1 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 398.15 471.43"><defs><style>.cls-1,.cls-2{fill:#fff;}.cls-2{font-size:82px;font-family:Corbel-Bold, Corbel;font-weight:700;letter-spacing:0.05em;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_3" data-name="Layer 3"><path class="cls-1" d="M386,38.2V330.62a38.19,38.19,0,0,1-38.27,38.15H69.62l41-47.58H301.66V273.51h-150l56-65.1h93.94V160.68H248.78l127.4-148A37.92,37.92,0,0,1,386,38.2Z"/><path class="cls-1" d="M96.28,47.79V95.53H238.45L225,111.24l-.08.1L182.7,160.68H96.61v47.73h44.74l-123,142.93a37.92,37.92,0,0,1-6.14-20.72V38.2A38.21,38.21,0,0,1,50.45,0H320.23L279.31,47.79Z"/></g><g id="Text"><text class="cls-2" transform="translate(0 451.73)">ERRANDZ</text></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 398.15 471.43">
+    <defs>
+        <style>
+            @font-face {
+                font-family: Corbel-Bold;
+                src: url('../fonts/Corbel Bold.TTF');
+            }
+            .cls-1,.cls-2{fill:#fff;}
+            .cls-2{font-size:82px;font-family:'Corbel Bold',
+            Corbel;font-weight:700;letter-spacing:0.05em;}
+        </style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Layer_3" data-name="Layer 3">
+            <path class="cls-1"
+                  d="M386,38.2V330.62a38.19,38.19,0,0,1-38.27,38.15H69.62l41-47.58H301.66V273.51h-150l56-65.1h93.94V160.68H248.78l127.4-148A37.92,37.92,0,0,1,386,38.2Z"/>
+            <path class="cls-1"
+                  d="M96.28,47.79V95.53H238.45L225,111.24l-.08.1L182.7,160.68H96.61v47.73h44.74l-123,142.93a37.92,37.92,0,0,1-6.14-20.72V38.2A38.21,38.21,0,0,1,50.45,0H320.23L279.31,47.79Z"/>
+        </g>
+        <g id="Text">
+            <text class="cls-2" style="font-family: 'Corbel Bold, sans-serif'" transform="translate(0 451.73)">ERRANDZ</text>
+        </g>
+    </g>
+</svg>
