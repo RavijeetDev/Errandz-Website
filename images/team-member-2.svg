@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="175" height="169" viewBox="0 0 175 169">
+  <defs>
+    <clipPath id="clip-path">
+      <ellipse id="Ellipse_40" data-name="Ellipse 40" cx="87.5" cy="84.5" rx="87.5" ry="84.5" transform="translate(-0.001 0.001)" fill="#6cba7f" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_6" data-name="Mask Group 6" transform="translate(0.001 -0.001)" clip-path="url(#clip-path)">
+    <g id="User_Female_Side" data-name="User Female Side" transform="translate(3.435 0.01)">
+      <g id="Glyph">
+        <path id="Path_205" data-name="Path 205" d="M24.65,24.65a84.162,84.162,0,1,1,0,119.023,84.162,84.162,0,0,1,0-119.023ZM26.3,94.682a21.04,21.04,0,0,0,21.04,21.04h15.78v8.841a64.155,64.155,0,0,0-19.3,22.846,4.205,4.205,0,0,0,1.659,5.564,79.2,79.2,0,0,0,75.538.994,4.161,4.161,0,0,0,1.7-5.733l-.021-.037a66.351,66.351,0,0,0-22.759-23.445v-3.77a2.63,2.63,0,0,1,2.63-2.63h11.651a7.871,7.871,0,0,0,7.664-6.016l3.978-16.267,6.728-3.057a5.462,5.462,0,0,0,2.89-3,5.218,5.218,0,0,0-.219-4.2l-8.712-17.424h7.579V64.958c0-29.8-23.961-54.355-53.763-54.438A53.975,53.975,0,0,0,26.3,64.436Z" transform="translate(0 0)" fill="#6cba7f"/>
+        <path id="Path_206" data-name="Path 206" d="M72,82.719V93.15a2.63,2.63,0,0,0,2.63,2.63h0a2.63,2.63,0,0,0,2.63-2.63V82.63a2.63,2.63,0,0,0-2.8-2.624A2.689,2.689,0,0,0,72,82.719Z" transform="translate(43.722 -27.398)" fill="#6cba7f"/>
+        <path id="Path_207" data-name="Path 207" d="M88,66.719V87.67a2.63,2.63,0,0,0,2.63,2.63h0a2.63,2.63,0,0,0,2.63-2.63V66.63a2.63,2.63,0,0,0-2.8-2.624A2.689,2.689,0,0,0,88,66.719Z" transform="translate(17.202 -21.919)" fill="#6cba7f"/>
+        <path id="Path_208" data-name="Path 208" d="M104,82.719V93.15a2.63,2.63,0,0,0,2.63,2.63h0a2.63,2.63,0,0,0,2.63-2.63V82.63a2.63,2.63,0,0,0-2.8-2.624A2.689,2.689,0,0,0,104,82.719Z" transform="translate(-9.318 -27.398)" fill="#6cba7f"/>
+      </g>
+    </g>
+  </g>
+</svg>
