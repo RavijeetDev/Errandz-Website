@@ -270,6 +270,7 @@ button:active {
     text-align: center;
     margin: 0 auto 3rem auto;
     color: #464646;
+    z-index: 5;
 }
 
 .about-description .about-title {
@@ -446,6 +447,7 @@ button:active {
     font-size: 3rem;
     text-align: center;
     font-weight: 700;
+    z-index: 3;
 }
 
 .faqs-container {
@@ -459,7 +461,7 @@ button:active {
     display: grid;
     grid-template-columns: 95% 5%;
     background: rgba(255, 255, 255, 0.88);
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.25);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
     margin-bottom: 1.5rem;
     border-radius: 3px;
     padding: 1.8rem;
@@ -684,15 +686,15 @@ input:focus, textarea:focus {
 }
 
 .circle-1 {
-    width: 45.88%;
-    top: -51.18%;
-    left: -5.97%;
+    width: 43.88%;
+    top: -55.18%;
+    left: -6.97%;
     opacity: 0.7;
 }
 
 .circle-2 {
-    width: 26.65%;
-    top: 39.89%;
+    width: 28.65%;
+    top: 45.89%;
     left: -19%;
     opacity: 0.75;
 }
@@ -738,7 +740,7 @@ input:focus, textarea:focus {
 .circle-7 {
     z-index: 4;
     height: 60.21%;
-    left: -17.69%;
+    left: -14.69%;
     top: 45.62%;
     opacity: 0.75;
 }
@@ -1374,6 +1376,115 @@ input:focus, textarea:focus {
     .footer-section li {
         font-size: 1.3rem;
         margin-right: 1rem;
+    }
+
+
+    /******************************************************************************************************************/
+    /************************************************** Circles *******************************************************/
+    /******************************************************************************************************************/
+
+    .circle-1 {
+        width: 85%;
+        top: -25%;
+        left: -30.99%;
+    }
+
+    .circle-2 {
+        width: 47%;
+        top: 48.14%;
+        left: -29%;
+    }
+
+    .circle-3 {
+        top: -17.55%;
+        left: 80%;
+        width: 50%;
+    }
+
+    .circle-4 {
+        width: 45.16%;
+        bottom: -2%;
+        left: 68%;
+    }
+
+    .circle-5 {
+        height: 20.24%;
+        left: 78%;
+        top: 75%;
+    }
+
+    .circle-6 {
+        height: 18%;
+        left: 83%;
+        top: 65%;
+    }
+
+    .circle-7 {
+        height: 33%;
+        left: -35.88%;
+        top: 72%;
+    }
+
+    .circle-8 {
+        height: 31%;
+        right: 0;
+        bottom: 0;
+    }
+
+    .circle-9 {
+        height: 15%;
+        top: 10%;
+        left: 72%;
+    }
+
+    .circle-10 {
+        height: 16%;
+        left: 60%;
+    }
+
+    .circle-11 {
+        height: 31%;
+        top: -1%;
+    }
+
+    .circle-12 {
+        opacity: 1;
+        transform: rotate(90deg);
+        left: -18%;
+        height: 25%;
+        top: 15%;
+    }
+
+    .circle-13 {
+        height: 35%;
+        left: 75%;
+    }
+
+    .circle-14 {
+        height: 80%;
+        left: -19%;
+    }
+
+    .circle-15 {
+        height: 110%;
+        left: 75%;
+        top: 40%;
+    }
+
+    .circle-16 {
+        width: 26rem;
+        height: 26rem;
+        top: 11%;
+        left: 11%;
+        border-radius: 13rem;
+    }
+
+    .circle-17 {
+        width: 5rem;
+        height: 5rem;
+        border-radius: 2.5rem;
+        top: 13%;
+        left: 60%;
     }
 }
 
