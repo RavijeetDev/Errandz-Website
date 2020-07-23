@@ -39,16 +39,41 @@ $(document).ready(function () {
             $(this).find("svg").css({
                 "transform": "rotate(0deg)"
             });
-            $(`${elementParent} p`).show();
+            $(`${elementParent} p`).slideDown("slow", function () {
+
+            });
         } else {
             $(this).find("svg").css({
                 "transform": "rotate(180deg)"
             });
-            $(`${elementParent} p`).hide();
+            $(`${elementParent} p`).slideUp("slow", function () {
+
+            });
         }
     })
 
-
+    $(".newsletter-container button").click(function (e) {
+        e.preventDefault();
+    })
+    // function setUpNewsletter() {
+    //     document.getElementById("submit-button").addEventListener('click', () => {
+    //         let email = document.getElementById("email").value;
+    //         let displayMessage = document.getElementById("newsletter-message");
+    //         displayMessage.value = '';
+    //         if (!email) {
+    //             displayMessage.innerHTML = 'Please Enter Your Email ID!';
+    //         } else if (!isEmailValid(email)) {
+    //             displayMessage.innerHTML = 'Please Enter Valid Email ID!';
+    //         } else {
+    //             document.getElementById("email").value = '';
+    //             document.getElementById("dialog-modal-container").style.display = "block";
+    //             document.getElementById("close-button").addEventListener('click', () => {
+    //                 document.getElementById("dialog-modal-container").style.display = "none";
+    //             })
+    //         }
+    //
+    //     });
+    // }
 
 
 })
