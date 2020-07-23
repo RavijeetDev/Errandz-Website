@@ -1,30 +1,35 @@
 $(document).ready(function () {
 
-    $("#nav-features").click(function() {
+    $("#nav-features, #small-nav-features").click(function() {
+        $('#nav-toggle').prop("checked", false);
         $('html, body').animate({
             scrollTop: $(".feature-section").offset().top
         }, 1000);
     });
 
-    $("#nav-about").click(function() {
+    $("#nav-about, #small-nav-about").click(function() {
+        $('#nav-toggle').prop("checked", false);
         $('html, body').animate({
             scrollTop: $(".about-section").offset().top
         }, 1000);
     });
 
-    $("#nav-team").click(function() {
+    $("#nav-team, #small-nav-team").click(function() {
+        $('#nav-toggle').prop("checked", false);
         $('html, body').animate({
             scrollTop: $(".team-section").offset().top
         }, 1000);
     });
 
-    $("#nav-faq").click(function() {
+    $("#nav-faq, #small-nav-faqs").click(function() {
+        $('#nav-toggle').prop("checked", false);
         $('html, body').animate({
             scrollTop: $(".faqs-section").offset().top
         }, 1000);
     });
 
-    $("#nav-contact").click(function() {
+    $("#nav-contact, #small-nav-contact").click(function() {
+        $('#nav-toggle').prop("checked", false);
         $('html, body').animate({
             scrollTop: $(".contact-section").offset().top
         }, 1000);
@@ -55,6 +60,8 @@ $(document).ready(function () {
     $(".newsletter-container button").click(function (e) {
         e.preventDefault();
     })
+
+
     // function setUpNewsletter() {
     //     document.getElementById("submit-button").addEventListener('click', () => {
     //         let email = document.getElementById("email").value;
