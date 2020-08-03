@@ -137,6 +137,7 @@
     </section>
     <section class="about-section">
         <h1>About</h1>
+        <img src="images/icons/play-icon.svg" class="mobile-play-icon">
         <div class="about-description">
             <div class="about-title">What is Errandz about?</div>
             <p>Errandz is a mobile platform software application that serves as a solution for people who are looking
@@ -147,10 +148,12 @@
                 with
                 everyday chores like babysitting, lawn mowing and many more small chores.</p>
         </div>
-
         <img class="about-img" src="images/about.svg" alt="About Image"/>
         <img src="images/circles/circle-7.svg" class="circle circle-about circle-7"/>
         <img src="images/circles/circle-8.svg" class="circle circle-about circle-8"/>
+        <div class="about-overlay" id="about-overlay">
+            <img src="images/icons/play-icon.svg" class="play-icon">
+        </div>
     </section>
     <section class="team-section">
         <h1>TEAM</h1>
@@ -163,7 +166,7 @@
             <div class="team-member-container team-member-container-1">
                 <img class="team-member-image" src="images/members/Green/Ravi.png" alt="Ravijeet"/>
                 <div class="team-member-name">Ravijeet Singh Ahluwalia</div>
-                <div class="team-member-designation">Project Manager AND Mobile/Backend Developer</div>
+                <div class="team-member-designation">Project Manager And Mobile/Backend Developer</div>
                 <a href="https://www.linkedin.com/in/rsahluwalia/" class="member-link member-link-1">
                     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                          xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -596,6 +599,13 @@
 <!--            <button class="close-button button" id="close-button">OK</button>-->
 <!--        </div>-->
 <!--    </div>-->
+
+    <div class="video-background-overlay" id="video-background-overlay">
+        <video class="team-video" controls>
+            <source src="video/errandz_promotional_video.mp4" type="video/mp4">
+            Your browser does not support HTML video.
+        </video>
+    </div>
 </div>
 </body>
 
