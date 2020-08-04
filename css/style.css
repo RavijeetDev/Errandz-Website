@@ -392,7 +392,7 @@ button:active {
     grid-row: 4/5;
     align-self: center;
     text-align: center;
-    margin: 4rem auto 0 auto;
+    margin: 0.5rem auto 0 auto;
     color: #464646;
     z-index: 5;
 }
@@ -419,7 +419,7 @@ button:active {
 .video-background-overlay {
     display: none;
     position: fixed;
-    z-index: 10;
+    z-index: 1300;
     padding-top: 100px;
     left: 0;
     top: 0;
@@ -453,7 +453,7 @@ button:active {
 
 .mobile-play-icon {
     width: 6rem;
-    margin-bottom: 2rem;
+    margin: 3rem 0;
     display: block;
     grid-column: 1/2;
     grid-row: 3/4;
@@ -1138,7 +1138,6 @@ input:focus, textarea:focus {
 
     .about-section .about-img {
         width: 38rem;
-        margin-bottom: 5rem;
     }
 
     .about-description {
@@ -1480,7 +1479,7 @@ input:focus, textarea:focus {
     /********************************************** HEADER SECTION ****************************************************/
     /******************************************************************************************************************/
     .header-section {
-        grid-template-rows: 17vh 68vh;
+        grid-template-rows: 17vh 70vh;
     }
 
     .logo {
@@ -1518,7 +1517,7 @@ input:focus, textarea:focus {
     }
 
     .intro-heading p {
-        margin: 3rem 5rem;
+        margin: 3rem 3rem;
     }
 
     .download-links-container {
@@ -1610,9 +1609,11 @@ input:focus, textarea:focus {
     .about-section .about-img {
         grid-column: 2/3;
         margin-top: 0;
+        margin-bottom: 5rem;
     }
 
     .about-description {
+        margin-top: 4rem;
         grid-row: 2/3;
         width: 84%;
     }
@@ -1793,7 +1794,7 @@ input:focus, textarea:focus {
 
     .header-container {
         grid-template-columns: 40% 60%;
-        grid-template-rows: 70% 30%;
+        grid-template-rows: 80% 20%;
     }
 
     .nav-large-screen {
@@ -1946,7 +1947,7 @@ input:focus, textarea:focus {
     /********************************************** HEADER SECTION ****************************************************/
     /******************************************************************************************************************/
     .header-section {
-        grid-template-rows: 17vh 68vh;
+        grid-template-rows: 17vh 80vh;
     }
 
     .logo {
@@ -1960,7 +1961,7 @@ input:focus, textarea:focus {
 
     .header-container {
         grid-template-columns: 35% 65%;
-        grid-template-rows: 63% 37%;
+        grid-template-rows: 70% 30%;
     }
 
     .nav-large-screen {
@@ -2109,4 +2110,42 @@ input:focus, textarea:focus {
         width: 60%;
     }
 
+}
+
+@media screen and (min-width: 1081px) {
+
+    .intro-heading {
+        align-self: end;
+        justify-self: center;
+        grid-column: 2/3;
+        grid-row: 1/2;
+        width: 90%;
+        margin: 5rem 0 0;
+    }
+
+    .intro-heading h1 {
+        font-size: 5rem;
+    }
+
+    .intro-heading p {
+        margin: 3rem 7rem 2rem;
+        font-size: 1.8rem;
+    }
+
+    .download-links-container {
+        margin-top: 2rem;
+        margin-bottom: 0;
+    }
+
+    .google-play {
+        margin-right: 1rem;
+    }
+
+    .app-store {
+        margin-left: 1rem;
+    }
+
+    .download-link-img img {
+        width: 18rem;
+    }
 }
