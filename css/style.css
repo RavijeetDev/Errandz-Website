@@ -1947,7 +1947,7 @@ input:focus, textarea:focus {
     /********************************************** HEADER SECTION ****************************************************/
     /******************************************************************************************************************/
     .header-section {
-        grid-template-rows: 17vh 80vh;
+        grid-template-rows: 17vh 70vh;
     }
 
     .logo {
@@ -1979,7 +1979,7 @@ input:focus, textarea:focus {
     }
 
     .intro-heading {
-        align-self: end;
+        align-self: center;
         justify-self: center;
         grid-column: 2/3;
         grid-row: 1/2;
