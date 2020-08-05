@@ -2114,8 +2114,12 @@ input:focus, textarea:focus {
 
 @media screen and (min-width: 1081px) {
 
+    .header-section {
+        grid-template-rows: 17vh 70vh;
+    }
+
     .intro-heading {
-        align-self: end;
+        align-self: center;
         justify-self: center;
         grid-column: 2/3;
         grid-row: 1/2;
